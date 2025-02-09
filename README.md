@@ -1,2 +1,1 @@
-# Amazing try through this link :
-## https://react-1st-project-seven.vercel.app/
+# Have a nice try : https://react-1st-project-seven.vercel.app/
