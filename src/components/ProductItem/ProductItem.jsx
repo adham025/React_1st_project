@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ProductItem({ product }) {
   return (
     <div key={product.id} className="col-md-3">
-      <div className="bg-dark text-white p-3 rounded">
+      <Link to={`/product-details/${product.id}`} className="bg-dark text-white d-block text-decoration-none p-3 rounded">
         <img
           src={product.image}
           className="w-100"
@@ -20,7 +21,7 @@ export default function ProductItem({ product }) {
             <i className="fa fa-star text-warning"></i>
           </p>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

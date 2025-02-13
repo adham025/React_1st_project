@@ -20,10 +20,6 @@ export default function Home() {
     getProducts();
   }, []);
 
-  // function cssClasses(...classes) {
-  //   return classes.join(" ");
-  // }
-
   return (
     <div className="row my-3 gy-3">
       {products.length === 0 ? (

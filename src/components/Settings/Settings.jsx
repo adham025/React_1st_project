@@ -11,7 +11,7 @@ export default function Settings() {
                 <Link to={'/settings'}>Web</Link>
             </li>
             <li>
-                <Link to={'mobile '}>Mobile</Link>
+                <Link to={'mobile'}>Mobile</Link>
             </li>
         </ul>
         </div>
