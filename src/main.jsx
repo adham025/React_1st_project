@@ -6,13 +6,16 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import App from './App.jsx'
 import CounterContextProvider from './Context/CounterContext.jsx'
 import TokenContextProvider from './Context/TokenContext.jsx'
+import CartContextProvider from './Context/CartContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <CounterContextProvider>
+    <CartContextProvider>
       <TokenContextProvider>
     <App />
       </TokenContextProvider>
+    </CartContextProvider>
     </CounterContextProvider>
   </StrictMode>,
 )
